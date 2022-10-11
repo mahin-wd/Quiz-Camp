@@ -1,11 +1,12 @@
 // import React, { useState } from 'react';
 import { EyeIcon } from '@heroicons/react/24/solid'
+import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './DisplayQuiz.css';
 
 const DisplayQuiz = ({questions}) => {
-    let ans = [];
+    const [ans, setAns] = useState([]);
     const {question, options} = questions;
 
     const setAnswer = (option) => {
@@ -20,7 +21,9 @@ const DisplayQuiz = ({questions}) => {
                 progress: undefined,
                 theme: "light",
                 });
-                ans.push(option);
+                
+                const newAns = [...ans, option];
+                setAns(newAns);
         }
         else{
             toast.error('Answer Is Wrong', {

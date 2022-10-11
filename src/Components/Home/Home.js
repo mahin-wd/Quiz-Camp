@@ -8,7 +8,6 @@ const Home = () => {
     const allQuiz = useLoaderData();
     const quizes = allQuiz.data;
     
-    
     return (
         <div>
             <div className='header-part'>

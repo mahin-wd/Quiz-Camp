@@ -10,9 +10,8 @@
     border-radius: 10px;
 }
 
-.nav-name h2{
-    color: #288;
-    font-size: 30px;
+.nav-name img{
+    height: 180px;
 }
 
 .nav-item a{

@@ -1,0 +1,20 @@
+.questions{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: start;
+}
+
+.questions h1{
+    text-align: center;
+    border-bottom: 3px solid #288;
+}
+
+.questions h3{
+    font-size: 30px;
+}
+
+.questions p{
+    font-size: 20px;
+    margin-top: -25px;
+}

@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import { EyeIcon } from '@heroicons/react/24/solid'
 import './DisplayQuiz.css';
 
 const DisplayQuiz = ({questions}) => {
@@ -15,6 +16,10 @@ const DisplayQuiz = ({questions}) => {
                 <div className='quistions'>
             
                     <h3>{question}</h3>
+
+                    <div>
+                        <EyeIcon className='view'></EyeIcon>
+                    </div>
                 
                     <div className='choose-btn'>
                         {

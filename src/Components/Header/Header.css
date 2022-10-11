@@ -1,11 +1,10 @@
 .header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: block;
 }
 
 .header img{
     height: 150px;
+    margin-bottom: -30px;
 }
 
 .header h2{

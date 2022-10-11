@@ -21,3 +21,13 @@
     font-size: 15px;
     cursor: pointer;
 }
+
+
+
+.view{
+    height: 30px;
+    position: relative;
+    left: 200px;
+    color: #288;
+    cursor: pointer;
+}

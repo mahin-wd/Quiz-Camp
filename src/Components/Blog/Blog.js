@@ -3,7 +3,7 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='questions'>
+        <div className='blog'>
         <h1>Some Questions</h1>
             <div>
                 <h3> 1)What is the purpose of React Router?</h3>

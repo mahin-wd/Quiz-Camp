@@ -4,21 +4,25 @@ import './DisplayQuiz.css';
 
 const DisplayQuiz = ({questions}) => {
     const {question, options} = questions;
+    // console.log(questions);
 
-    
+    const correctAns = () => {
+        alert('Correct answer is: ' + (questions.correctAnswer))
+    }
+
     const chooseAnswer = (option) => {
-        
+        alert()
     }
 
         return (
 
             <div>
-                <div className='quistions'>
+                <div className='questions'>
             
                     <h3>{question}</h3>
 
                     <div>
-                        <EyeIcon className='view'></EyeIcon>
+                        <EyeIcon onClick={correctAns} className='view'></EyeIcon>
                     </div>
                 
                     <div className='choose-btn'>

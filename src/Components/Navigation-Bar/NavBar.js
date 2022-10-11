@@ -20,7 +20,7 @@ const NavBar = () => {
             <div className={`nav-item ${open ? 'active' : 'close'}`}>
                 <nav>
                     <Link to ='/'>Home</Link>
-                    {/* <Link to = '/quiz'>Topic</Link> */}
+                    <Link to = '/topic'>Topic</Link>
                     <Link to ='/statistic'>Statistic</Link>
                     <Link to ='/blog'>Blog</Link>
                 </nav>

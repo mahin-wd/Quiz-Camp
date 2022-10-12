@@ -14,7 +14,7 @@ const NavBar = () => {
             </div>
             
             <div className="nav-name">
-            <img src="quiz.png" alt="" />
+            <img src="quiz-nav.png" alt="" />
             </div>
 
             <div className={`nav-item ${open ? 'active' : 'close'}`}>

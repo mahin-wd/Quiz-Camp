@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, } from 'recharts';
 import './ShowChart.css'
 
 
@@ -32,7 +32,7 @@ const ShowChart = ({quiz}) => {
           <Tooltip />
           <Legend />
           <Line type="monotone" dataKey="total" stroke="#8884d8" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+          {/* <Line type="monotone" dataKey="total" stroke="#82ca9d" /> */}
         </LineChart>
         </div>
     );

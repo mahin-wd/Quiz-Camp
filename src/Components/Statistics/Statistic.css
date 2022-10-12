@@ -4,3 +4,23 @@
     gap: 30px;
     margin: 30px 80px;
 }
+
+@media screen and (max-width: 900px) {
+    .chart{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .chart{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        margin-left: -50px;
+        margin-top: 50px;
+    }
+}

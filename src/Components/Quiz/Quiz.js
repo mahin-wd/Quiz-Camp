@@ -7,7 +7,7 @@ const Quiz = () => {
     const quizQuestions = quiz.data.questions;
     return (
         <div>
-        <h1> Start Yout Quiz On {quiz.name}</h1>
+        <h1> Start Your Quiz</h1>
             {
                 quizQuestions.map(questions => <DisplayQuiz
                 questions={questions}
